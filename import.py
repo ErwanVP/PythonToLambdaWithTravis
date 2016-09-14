@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-import urllib
+import urllib2
 import boto3
 
 print('Loading function')
