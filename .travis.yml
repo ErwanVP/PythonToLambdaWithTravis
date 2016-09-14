@@ -3,5 +3,5 @@ deploy:
   function_name: "$FONCTION_NAME"
   role: "$ROLE_NAME"
   handler_name: "index.py"
-  access_key_id: "AWS ACCESS KEY ID"
-  secret_access_key: "AWS SECRET ACCESS KEY"
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_ACCESS"
