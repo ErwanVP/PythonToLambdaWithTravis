@@ -10,7 +10,8 @@ script: nosetests
 
 deploy:
   provider: lambda
-  function_name: "$FUNCTION"
+  function_name: "$function"
+  role:"$role"
   handler_name: "main.handle"
   access_key_id: "$key_id"
   secret_access_key: "$secret_key"
