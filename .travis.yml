@@ -12,6 +12,7 @@ deploy:
   provider: lambda
   function_name: "$function"
   role: "$role"
+  region: "eu-west-1"
   handler_name: "main.handle"
   access_key_id: "$key_id"
   secret_access_key: "$secret_key"
