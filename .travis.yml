@@ -17,3 +17,4 @@ deploy:
   module_name: "main"
   access_key_id: "$key_id"
   secret_access_key: "$secret_key"
+  runtime: "python"
