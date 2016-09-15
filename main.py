@@ -7,7 +7,7 @@ print('Loading function')
 
 s3 = boto3.client('s3')
 
-def lambda_handler(event, context):
+def handle(event, context):
 
     bucket = event['Records'][0]['s3']['bucket']['name']
     key = event['Records'][0]['s3']['object']['key']
