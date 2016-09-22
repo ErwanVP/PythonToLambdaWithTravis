@@ -18,3 +18,4 @@ deploy:
   access_key_id: "$key_id"
   secret_access_key: "$secret_key"
   runtime: "python2.7"
+  description: "SQS access : {context.env['TRAVIS_BUILD_NUMBER']} to AWS Lambda via Travis CI"
